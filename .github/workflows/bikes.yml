@@ -1,11 +1,6 @@
 name: PRFlow Bikes
 
-on:
-  pull_request:
-    branches:
-      - master
-    paths:
-      - samples/BikeSharingApp/Bikes/**
+on: [workflow_dispatch]
 
 jobs:
   build:
